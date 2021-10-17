@@ -1,6 +1,6 @@
 /*slide and items in slide styling*/
 
-body, #slide, .slide-content {
+body, .slide-content, #slide {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,7 +10,7 @@ body, #slide, .slide-content {
 .wrap {position: relative;}
 
 .slide {
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -37,19 +37,15 @@ li {
 
 
 .slide1 {
-    background-image: linear-gradient(rgba(19, 17, 17, 0.822), rgba(37, 36, 35, 0.774)), url(../imglogoblive/slider.jpg);
-    margin: 100px 100px 100px 100px;
-    padding-top: 10px;
-    padding-bottom: 120px;
-    height: 60vh;
+    background-image: linear-gradient(rgba(168, 41, 41, 0.5), rgba(37, 36, 35, 0.5)), url(../imglogoblive/slider.jpg);
+    margin: 50px 100px 100px 100px;
+    height: 80vh;
 }
 
 .slide2 {
-    background-image:linear-gradient(rgba(226, 190, 113, 0.7), rgba(155, 128, 89, 0.7)), url(../imglogoblive/slideimg1.jpg);
+    background-image:linear-gradient(rgba(226, 190, 113, 0.5), rgba(94, 67, 30, 0.5)), url(../imglogoblive/slideimg1.jpg);
     margin: 100px 100px 100px 100px;
-    padding-top: 10px;
-    padding-bottom: 120px;
-    height: 60vh;
+    height: 80vh;
 }
 
 .slide-content {
@@ -87,21 +83,6 @@ li {
     border-color: transparent black transparent transparent;
     left: 0;
     margin-left: 30px;
-}
-
-/*bottom navbar styling*/
-
-.nav-link {
-    display: flex;
-    flex-direction: row;
-    justify-items: right;
-    justify-content: space-between;
-    padding: 1px 1px 1px 1px;
-}
-.navbar-container {
-    width: 80%;
-    margin:auto;
-    padding: 1px 1px 1px 1px;
 }
 
 
